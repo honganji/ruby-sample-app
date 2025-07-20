@@ -1,0 +1,19 @@
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/Users/yujitoshihiro/.asdf/installs/ruby/3.2.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-nmladi sitelibdir\=./.gem.20250720-19132-nmladi clean
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-nmladi sitelibdir\=./.gem.20250720-19132-nmladi
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-nmladi sitelibdir\=./.gem.20250720-19132-nmladi install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20250720-19132-nmladi
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-nmladi sitelibdir\=./.gem.20250720-19132-nmladi clean

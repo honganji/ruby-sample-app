@@ -1,0 +1,19 @@
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/yujitoshihiro/.asdf/installs/ruby/3.2.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-q036rf sitelibdir\=./.gem.20250720-19132-q036rf clean
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-q036rf sitelibdir\=./.gem.20250720-19132-q036rf
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-q036rf sitelibdir\=./.gem.20250720-19132-q036rf install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250720-19132-q036rf/racc
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250720-19132-q036rf sitelibdir\=./.gem.20250720-19132-q036rf clean

@@ -1,0 +1,23 @@
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.1/ext/jaro_winkler
+/Users/yujitoshihiro/.asdf/installs/ruby/3.2.8/bin/ruby extconf.rb
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.1/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250720-23216-p1p9kt sitelibdir\=./.gem.20250720-23216-p1p9kt clean
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.1/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250720-23216-p1p9kt sitelibdir\=./.gem.20250720-23216-p1p9kt
+compiling adj_matrix.c
+compiling codepoints.c
+compiling jaro.c
+compiling jaro_winkler.c
+linking shared-object jaro_winkler/jaro_winkler_ext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.1/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250720-23216-p1p9kt sitelibdir\=./.gem.20250720-23216-p1p9kt install
+/usr/bin/install -c -m 0755 jaro_winkler_ext.bundle ./.gem.20250720-23216-p1p9kt/jaro_winkler
+
+current directory: /Users/yujitoshihiro/home/dev/ruby/rails-tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.1/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250720-23216-p1p9kt sitelibdir\=./.gem.20250720-23216-p1p9kt clean
