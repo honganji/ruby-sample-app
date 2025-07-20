@@ -1,0 +1,30 @@
+name: Rails Test
+
+on:
+  pull_request:
+    branches: [ main, master, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    env:
+      RAILS_ENV: test
+      
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2.8'
+        bundler-cache: true
+
+    - name: Install dependencies
+      run: |
+        bundle install --jobs 4 --retry 3
+
+    - name: Run tests
+      run: |
+        bundle exec rails test
